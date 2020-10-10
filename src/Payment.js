@@ -22,13 +22,7 @@ function Payment() {
     useEffect(() => {
         // generate the client secret
        const getClientSecret = async() =>{
-        //    const response = await axios({
-        //        method:"post",
-        //        url: `/payments/create?total=${getBasketTotal(basket) * 100}`,
-        //    });
         axios.post(`https://us-central1-challenge-564f3.cloudfunctions.net/api/payments/create?total=${getBasketTotal(basket) * 100}`).then(response=>{ setClientSecret(response.data.clientSecret)})
-       // axios.post(`http://localhost:5001/challenge-564f3/us-central1/api/payments/create?total=${getBasketTotal(basket) * 100}`).then(response=>{ setCustomer(response.data.customer) })
-        
        }
 
        getClientSecret();
