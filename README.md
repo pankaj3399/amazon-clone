@@ -1,3 +1,12 @@
+## IMAGES
+![SIGN IN ](https://github.com/pankaj3399/amazon-clone/blob/ADD-IMAGES/signinpage.PNG)
+![MAIN PAGE](https://github.com/pankaj3399/amazon-clone/blob/ADD-IMAGES/mainpage.PNG)
+![PRODUCTS](https://github.com/pankaj3399/amazon-clone/blob/ADD-IMAGES/products.PNG)
+![PAYMENT IMAGE](https://github.com/pankaj3399/amazon-clone/blob/ADD-IMAGES/paymentpage.PNG)
+![CHECKOUT IMAGE](https://github.com/pankaj3399/amazon-clone/blob/ADD-IMAGES/checkoutpage.PNG)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
